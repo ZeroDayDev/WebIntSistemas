@@ -73,6 +73,7 @@ footer{
     justify-content: center;
     align-items: center;
 
+    max-width: 1000px;
     margin: auto;
 }   
 
@@ -96,9 +97,5 @@ footer{
 
 .Menu li a:hover{
     color:cadetblue;
-}
-
-.Menu li img{
-    height: 3rem;
-    display: inline-block;
+    font-size: 1.2rem;
 }
