@@ -1,17 +1,17 @@
 body{
-    background-image: radial-gradient(#2267DF, #3C22DF);
+    background-image: url("https://moonsik.com/Photos/fondo.jpg");
     /*background-image: linear-gradient(to right, rgb(0, 19, 105), rgb(0, 53, 102));*/
 }
 
 h1{
-    font-family: 'Verdana';
+    font-family: Helvetica, sans-serif;
     text-align: center;
     color: darkblue;
     margin: 1%;
 }
 
 p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Helvetica, sans-serif;
     text-align: justify;
     font-size: 20px;
     margin: 1%;
@@ -81,15 +81,17 @@ footer{
 .Menu{
     padding: 0.3%;
     border-radius: 5rem;
+    justify-content: center;
 }   
 
 .Menu li{
     display: inline-block;
     text-align: center;
+    padding:1rem;
 }
 
 .Menu li a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Helvetica, sans-serif;
     color: white;
 }
 
