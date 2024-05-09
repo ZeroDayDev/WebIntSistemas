@@ -28,12 +28,12 @@ hr{
 }
 
 header{
-    background-color: azure;
-    border-radius: 1vh;
+    justify-content: center;
+    /*border-radius: 1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
     padding: 1%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.288);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.288);*/
 }
 
 header::before{
@@ -41,21 +41,11 @@ header::before{
 }
 
 hgroup.Title{
-    background-color: azure;
-    margin-right: 19%;
-    border-radius: 1vh;
-    padding: 1%;
-    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.288);
+    justify-content: center;
 }
 
 article.Content{
-    background-color: azure;
-    border-radius: 1vh;
-    margin-top: 1vh;
-    margin-right: 19%;
-    padding: 1%;
-    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.288);
-    clear: inherit;
+    justify-content: center;
 }
 
 nav.RightSide{
@@ -117,11 +107,13 @@ footer{
 
 .Menu li{
     display: inline-block;
+    margin: 2rem;
     text-align: center;
 }
 
 .Menu li a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1rem;
     color: white;
 }
 
@@ -130,6 +122,6 @@ footer{
 }
 
 .Menu li img{
-    height: 2rem;
+    height: 3rem;
     display: inline-block;
 }
