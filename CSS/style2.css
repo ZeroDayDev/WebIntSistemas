@@ -30,10 +30,12 @@ img{
 hr{
     clear: both;
     margin: 10px;
+    margin-top: 20rem;
 }
 
 header{
     justify-content: center;
+    align-items: center;
     /*border-radius: 1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -57,7 +59,6 @@ footer{
     background-color: azure;
     border-radius: 1vh;
     padding: 1%;
-    padding-top: 10rem;
     clear: both;
     margin-top: 10px;
 
@@ -70,6 +71,7 @@ footer{
     padding: 0.3%;
     border-radius: 5rem;
     justify-content: center;
+    align-items: center;
 }   
 
 .Menu li{
