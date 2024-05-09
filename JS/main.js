@@ -12,6 +12,7 @@ $(function(){
 
     //Funciones dinamicas del aspecto web
 
+    /*
     $(".Content").mouseenter(function () { 
         $(".Title").slideUp(300 , function(){
 
@@ -22,7 +23,7 @@ $(function(){
         $(".Title").slideDown(300, function(){
             
         })
-    })
+    })*/
 
 
 

@@ -10,15 +10,15 @@ h1{
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 10rem;
+    font-size: 5rem;
     margin: 1%;
 }
 
 p{
     font-family: Helvetica, sans-serif;
     text-align: justify;
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: rgb(219, 219, 219);
     margin: 1%;
 }
 
@@ -92,7 +92,7 @@ footer{
 .Menu li{
     display: inline-block;
     text-align: center;
-    padding:1rem;
+    padding:0.3rem;
 }
 
 .Menu li a{
@@ -100,7 +100,7 @@ footer{
     color: white;
     display: inline-block;
     text-decoration: none;
-    
+    font-size: 1rem;
 }
 
 .Menu li a:hover{
