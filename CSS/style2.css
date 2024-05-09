@@ -53,28 +53,11 @@ article.Content{
     justify-content: center;
 }
 
-nav.RightSide{
-    background-color: azure;
-    border-radius: 1vh;
-    padding: 1%;
-    float: right;
-    margin-bottom: 20px;
-    
-    height: 100vh;
-    width: 16%;
-    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.575);
-}
-
-nav.RightSide div{
-    background-color: rgb(218, 234, 255);
-    border-radius: 1vh;
-    padding: 2%;
-}
-
 footer{
     background-color: azure;
     border-radius: 1vh;
     padding: 1%;
+    padding-top: 10rem;
     clear: both;
     margin-top: 10px;
 
@@ -96,8 +79,8 @@ footer{
 }
 
 .Menu li a{
-    font-family: Helvetica, sans-serif;
-    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: rgb(211, 211, 211);
     display: inline-block;
     text-decoration: none;
     font-size: 1rem;
