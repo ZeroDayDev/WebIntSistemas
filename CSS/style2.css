@@ -1,0 +1,139 @@
+body{
+    background-image: radial-gradient(#2267DF, #3C22DF);
+    /*background-image: linear-gradient(to right, rgb(0, 19, 105), rgb(0, 53, 102));*/
+}
+
+h1{
+    font-family: 'Verdana';
+    text-align: center;
+    color: darkblue;
+    margin: 1%;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    margin: 1%;
+}
+
+img{
+    margin: 1%;
+    border-radius: 1vh;
+}
+
+hr{
+    clear: both;
+    margin: 10px;
+}
+
+header{
+    background-color: azure;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding: 1%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.288);
+}
+
+header::before{
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+}
+
+hgroup.Title{
+    background-color: azure;
+    margin-right: 19%;
+    border-radius: 1vh;
+    padding: 1%;
+    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.288);
+}
+
+article.Content{
+    background-color: azure;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    margin-right: 19%;
+    padding: 1%;
+    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.288);
+    clear: inherit;
+}
+
+nav.RightSide{
+    background-color: azure;
+    border-radius: 1vh;
+    padding: 1%;
+    float: right;
+    margin-bottom: 20px;
+    
+    height: 100vh;
+    width: 16%;
+    box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, 0.575);
+}
+
+nav.RightSide div{
+    background-color: rgb(218, 234, 255);
+    border-radius: 1vh;
+    padding: 2%;
+}
+
+footer{
+    background-color: azure;
+    border-radius: 1vh;
+    padding: 1%;
+    clear: both;
+    margin-top: 10px;
+
+    box-shadow:  10px 10px 12px 0 rgba(0, 0, 0, 0.575);
+}
+
+#HeadLogo{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    max-height: 75px;
+    min-width: 50px;
+    max-width: 75px;
+
+    border-radius: 10%;
+    float: right;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.288);
+}
+
+#HeadLogo:hover{
+    height: 65px;
+    width: 65px;
+    min-height: 65px;
+    max-height: 75px;
+    min-width: 65px;
+    max-width: 75px;
+}
+
+/*MENU DEL HEADER DE LA PAGINA*/
+
+.Menu{
+    list-style: none;
+    padding: 0.3%;
+    background-color: rgb(94, 144, 250);
+    border-radius: 1vh;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}   
+
+.Menu li a{
+    text-decoration: none;
+    font-family: 'Verdana';
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover{
+    background-color: rgb(133, 172, 255);
+    border-radius: 1vh;
+}
