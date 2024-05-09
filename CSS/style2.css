@@ -10,7 +10,7 @@ h1{
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 2rem;
     margin: 1%;
 }
 
@@ -60,6 +60,7 @@ footer{
     padding: 1%;
     clear: both;
     margin-top: 10px;
+    justify-content: center;
 
     box-shadow:  10px 10px 12px 0 rgba(0, 0, 0, 0.575);
 }
@@ -72,7 +73,7 @@ footer{
     justify-content: center;
     align-items: center;
 
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
 }   
