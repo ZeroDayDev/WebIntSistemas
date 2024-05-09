@@ -73,13 +73,16 @@ footer{
     justify-content: center;
     align-items: center;
 
-    max-width: 1000px;
     margin: auto;
 }   
 
 .Menu li{
     display: inline-block;
     text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     padding:0.5rem;
 }
 
