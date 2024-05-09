@@ -60,6 +60,7 @@ footer ul{
 footer ul li{
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: black;
+    list-style-type: none;
 }
 
 /*MENU DEL HEADER DE LA PAGINA*/
@@ -68,6 +69,7 @@ footer ul li{
     padding: 0.3%;
     border-radius: 2rem;
     justify-content: space-evenly;
+    text-align: center;
 
     max-width: 1000px;
     margin: auto;
@@ -76,8 +78,6 @@ footer ul li{
 
 .Menu li{
     display: inline-block;
-    text-align: center;
-    justify-content: space-evenly;
     margin: auto;
     padding:0.5rem;
 }
