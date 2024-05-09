@@ -76,28 +76,6 @@ footer{
     box-shadow:  10px 10px 12px 0 rgba(0, 0, 0, 0.575);
 }
 
-#HeadLogo{
-    height: 50px;
-    width: 50px;
-    min-height: 50px;
-    max-height: 75px;
-    min-width: 50px;
-    max-width: 75px;
-
-    border-radius: 10%;
-    float: right;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.288);
-}
-
-#HeadLogo:hover{
-    height: 65px;
-    width: 65px;
-    min-height: 65px;
-    max-height: 75px;
-    min-width: 65px;
-    max-width: 75px;
-}
-
 /*MENU DEL HEADER DE LA PAGINA*/
 
 .Menu{
@@ -107,13 +85,11 @@ footer{
 
 .Menu li{
     display: inline-block;
-    margin: 2rem;
     text-align: center;
 }
 
 .Menu li a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 1rem;
     color: white;
 }
 
