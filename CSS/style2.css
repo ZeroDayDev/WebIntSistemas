@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-image: linear-gradient(to right, rgb(0, 19, 105), rgb(0, 53, 102));*/
 }
 
 h1{
@@ -17,14 +16,20 @@ h2{
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 1%;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
     margin: 1%;
 }
 
 p{
     font-family: Helvetica, sans-serif;
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(219, 219, 219);
     margin: 1%;
 }
@@ -47,6 +52,10 @@ hgroup.Title{
 
 article.Content{
     justify-content: center;
+}
+
+article.Content img{
+    width: 20rem;
 }
 
 footer{
