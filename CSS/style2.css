@@ -13,6 +13,13 @@ h1{
     font-size: 4rem;
     margin: 1%;
 }
+h2{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin: 1%;
+}
 
 p{
     font-family: Helvetica, sans-serif;
@@ -66,7 +73,7 @@ footer ul li{
 /*MENU DEL HEADER DE LA PAGINA*/
 header img{
     height: 3rem;
-    text-align: center;
+    float: left;
 }
 
 .Menu{
